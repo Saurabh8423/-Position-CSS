@@ -1,0 +1,49 @@
+/* Static-position: 
+The default position value for elements.
+Elements with position: static are positioned according to the normal flow of the document.
+*/
+.static-position{
+    position: static;
+}
+
+/* Fixed-position: 
+Elements with position: fixed are positioned relative to the viewport 
+and do not move when the page is scrolled. They stay fixed at a specific position.
+*/
+.fixed-position{
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+}
+
+/* Sticky-position:  
+Elements with position: sticky are positioned based on the user's scroll position. 
+They behave like relative until a specific threshold is reached, and then they become fixed.
+*/
+.sticky-position{
+    position: sticky;
+    top: 25px;
+}
+
+/* Relative-position:  
+Elements with position: relative are positioned relative to their normal position in the document flow. 
+They can be moved using offset properties like top, right, bottom, and left.
+*/
+.relative-position{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+}
+
+/* Absolute-position:   
+Elements with position: absolute are positioned relative to their nearest positioned ancestor or to the containing block. 
+They are taken out of the normal document flow.
+*/
+.absolute-position{
+    border: solid 1px red;
+    position: absolute;
+    height : 150px;
+    right: 10px;
+
+}
